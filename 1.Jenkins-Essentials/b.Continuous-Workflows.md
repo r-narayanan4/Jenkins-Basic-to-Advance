@@ -74,3 +74,5 @@ Jenkins automatically performs all the activities required to deliver your softw
 
 
 [def]: /Image/image3.png
+[def]: /Image/image2.png
+[def]: /Image/image1.png
