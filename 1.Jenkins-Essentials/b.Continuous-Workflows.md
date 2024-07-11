@@ -20,7 +20,7 @@ You may also want human intervention along the way; for example, before you depl
 
 We can represent the process with an illustration:
 
-![image1](Image/image1.png)
+![image1][def]
 
 In the not-so-good old days, the Development, Quality Assurance, and Packaging/Deployment groups were often siloed and the process was more like this:
 
@@ -43,7 +43,7 @@ The philosophies of modern development emphasize collaboration between different
 
 - **Agile and continuous philosophies**: Agile mostly applies to the earliest steps of the process. Continuous applies to all stages through deployment.
 
-![image2](image2)
+![image2][def]
 
 ## Continuous Philosophy
 
