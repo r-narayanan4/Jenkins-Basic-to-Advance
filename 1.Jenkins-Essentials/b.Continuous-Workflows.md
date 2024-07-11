@@ -39,9 +39,9 @@ The philosophies of modern development emphasize collaboration between different
 - **DevOps**: Extends the Agile philosophy into operations and production by advocating for the automation and monitoring of all steps in the development cycle.
 - **Continuous**: Implements Agile and DevOps philosophies with tools that standardize the steps in the process and thoroughly test each code modification before it is integrated into the official source.
 
-### Summary: Get it done! Or Ship it!
+- **Summary**: Get it done! Or Ship it!
 
-- **Agile and continuous philosophies**: Agile mostly applies to the earliest steps of the process. Continuous applies to all stages through deployment.
+### Agile and continuous philosophies: Agile mostly applies to the earliest steps of the process. Continuous applies to all stages through deployment.
 
 ![CI/CD Lifecycle](../Image/image2.png)
 
