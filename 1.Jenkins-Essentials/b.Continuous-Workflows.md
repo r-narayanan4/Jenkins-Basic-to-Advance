@@ -20,7 +20,7 @@ You may also want human intervention along the way; for example, before you depl
 
 We can represent the process with an illustration:
 
-![image1][def]
+![CI/CD Lifecycle](../Image/image1.png)
 
 In the not-so-good old days, the Development, Quality Assurance, and Packaging/Deployment groups were often siloed and the process was more like this:
 
@@ -43,7 +43,7 @@ The philosophies of modern development emphasize collaboration between different
 
 - **Agile and continuous philosophies**: Agile mostly applies to the earliest steps of the process. Continuous applies to all stages through deployment.
 
-![image2][def]
+![CI/CD Lifecycle](../Image/image2.png)
 
 ## Continuous Philosophy
 
@@ -62,7 +62,7 @@ The continuous philosophy advocates that code be integrated often, at least dail
 
 To successfully implement continuous delivery, it is essential to have a collaborative working relationship with everyone involved. You can then use Delivery Pipelines, which are automated implementations of your product’s lifecycle.
 
-![image3][def]
+![CI/CD Lifecycle](../Image/image3.png)
 
 ## Jenkins Workflow
 
@@ -71,8 +71,3 @@ Jenkins automatically performs all the activities required to deliver your softw
 - Define a Jenkins Pipeline to run each activity in the same order every time.
 - Pipeline is glue for the activities defined. Do not code build actions directly in the Pipeline! Instead, use shell scripts or a tool such as Apache Maven, Gradle, npm, Apache Ant, or make to define the specific actions required at each step and use the pipeline to define the execution order.
 - The pipeline runs each time the code is modified.
-
-
-[def]: /Image/image3.png
-[def]: /Image/image2.png
-[def]: /Image/image1.png
