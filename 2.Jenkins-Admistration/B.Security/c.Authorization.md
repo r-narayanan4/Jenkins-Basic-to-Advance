@@ -33,7 +33,7 @@ The default authorization scheme is `Logged-in users can do anything`, which is 
 
 
 ![CI/CD Lifecycle](../Image/image14.png)
-
+![CI/CD Lifecycle](../Image/image1.png)
 ![CI/CD Lifecycle](../Image/image15.png)
 
 ![CI/CD Lifecycle](../Image/image16.png)
