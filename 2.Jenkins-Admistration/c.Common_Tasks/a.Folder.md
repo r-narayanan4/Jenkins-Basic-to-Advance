@@ -25,7 +25,7 @@ To create a new folder in Jenkins:
 2. Enter a name for the folder and select **Folder**.
 3. Click **OK**.
 
-![Create New Folder](../Image/image21.png)
+![Create New Folder](../../Image/image21.png)
 
 ## Cloning a Folder
 
@@ -34,7 +34,7 @@ To clone an existing folder:
 1. Fill in the **Copy from** field with the name of the folder you want to clone.
 2. Click **OK**.
 
-![Clone Existing Folder](../Image/image22.png)
+![Clone Existing Folder](../../Image/image22.png)
 
 ## Configuring a Folder
 
@@ -44,7 +44,7 @@ When creating or cloning a folder, you can configure it by:
 - Adding a **Description**.
 - Exploring other configuration options available for advanced settings.
 
-![Configure Folder](../Image/image23.png)
+![Configure Folder](../../Image/image23.png)
 
 ## Moving a Job to a Folder
 
@@ -55,6 +55,6 @@ To move a Pipeline project to a folder:
 3. Click **Move** in the left frame.
 4. Select the destination folder where you want to move this project.
 
-![Move Job to Folder](../Image/image24.png)
+![Move Job to Folder](../../Image/image24.png)
 
-![Move Job to Folder](../Image/image25.png)
+![Move Job to Folder](../../Image/image25.png)

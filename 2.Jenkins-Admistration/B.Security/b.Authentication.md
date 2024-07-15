@@ -40,6 +40,6 @@ For demonstrations and testing, consider using the Mock Security Realm. This pro
 
 Choose the security realm used to authenticate users on the **Manage Jenkins** > **Global Security** page.
 
-![CI/CD Lifecycle](../Image/image11.png)
-![CI/CD Lifecycle](../Image/image12.png)
-![CI/CD Lifecycle](../Image/image13.png)
+![CI/CD Lifecycle](../../Image/image11.png)
+![CI/CD Lifecycle](../../Image/image12.png)
+![CI/CD Lifecycle](../../Image/image13.png)

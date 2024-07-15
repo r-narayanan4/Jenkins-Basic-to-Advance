@@ -26,7 +26,7 @@ Plugins can have dependencies, either mandatory or optional. They are versioned 
 
 If two plugins have the same name but different extensions, the `.jpi` version takes precedence.
 
-# Configuring Build Notifications in Jenkins
+## Configuring Build Notifications in Jenkins
 
 Build notifications are crucial for providing feedback on Jenkins builds. They can be configured to deliver notifications through email, Slack, and other channels. Here's how to set them up:
 

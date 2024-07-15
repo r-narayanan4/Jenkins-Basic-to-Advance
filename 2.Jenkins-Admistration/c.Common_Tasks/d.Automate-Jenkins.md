@@ -37,7 +37,7 @@ Groovy scripts can be executed directly on the Jenkins server via the Script Con
 
 Jenkins Configuration as Code (CasC) allows you to define Jenkins configuration in YAML files stored under SCM. This approach automates Jenkins configuration setup and is useful for maintaining consistency across environments.
 
-![CI/CD Lifecycle](../Image/image26.png)
+![CI/CD Lifecycle](../../Image/image26.png)
 
 Plugins can contribute additional commands to the Jenkins CLI, expanding its functionality beyond core commands provided by Jenkins.
 

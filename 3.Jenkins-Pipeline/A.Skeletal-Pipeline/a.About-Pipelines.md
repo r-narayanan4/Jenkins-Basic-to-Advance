@@ -128,7 +128,7 @@ To summarize, Pipeline has the following advantages:
 
 - Easier specification through code
 
-Pipeline-as-code
+## Pipeline-as-code
 
 A Pipeline is defined in a Jenkinsfile that uses a DSL based on Apache Groovy syntax. The deployment flow is expressed as code; it can express complex flows, conditionals and such.
 
@@ -136,7 +136,7 @@ The Jenkinsfile is stored in an SCM. Pipeline works with SCM conventions such as
 
 Pipeline-as-code allows the entire team to collaborate on the continuous delivery process: from development, to QA, all the way through to operations and production.
 
-Jenkins vocabulary
+## Jenkins vocabulary
 
 - Controller: (previously called "master") is a computer, VM or container where Jenkins is installed and run. It serves requests and handles build tasks.
 
@@ -146,7 +146,7 @@ Jenkins vocabulary
 
 - Executor: is a computational resource for running builds. It performs operations and can run on any controller or agent, although running builds on controllers is strongly discouraged because it can degrade performance and opens up serious security vulnerabilities. An executor can be parallelized on a specific controller or agent.
 
-Jenkins Pipeline sections
+## Jenkins Pipeline sections
 
 The Jenkinsfile that defines a Pipeline uses a DSL based on Apache Groovy syntax.
 

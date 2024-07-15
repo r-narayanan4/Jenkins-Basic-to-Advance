@@ -12,31 +12,31 @@ The Manage Jenkins page displays a series of tiles for common task areas, arrang
 
 Screens for general system configuration, managing nodes and clouds, global tool configuration, and plugin management.
 
-![CI/CD Lifecycle](../Image/image6.png)
+![CI/CD Lifecycle](../../Image/image6.png)
 
 ## Security
 
 Screens to configure global security (authentication, authorization, and global settings that protect your Jenkins instance from intrusions) and screens to manage the credentials that provide secure access third-party sites and applications that interact with Jenkins.
 
-![CI/CD Lifecycle](../Image/image7.png)
+![CI/CD Lifecycle](../../Image/image7.png)
 
 ## Status Information
 
 Screens that display system information, information about disk usage, the Jenkins system log, "about Jenkins" information, and load statistics for the instance.
 
-![CI/CD Lifecycle](../Image/image8.png)
+![CI/CD Lifecycle](../../Image/image8.png)
 
 ## Troubleshooting
 
 Screens to help you resolve configuration issues.
 
-![CI/CD Lifecycle](../Image/image9.png)
+![CI/CD Lifecycle](../../Image/image9.png)
 
 ## Tools and Actions
 
 Screens for common management tasks (reloading the configuration from disk, preparing for shutdown) and management tools that enable you to administer Jenkins from the command line (Jenkins CLI and the Script Console), with any additional tools available based on the plugins you install.
 
-![CI/CD Lifecycle](../Image/image10.png)
+![CI/CD Lifecycle](../../Image/image10.png)
 
 ### Some Handy Pages
 

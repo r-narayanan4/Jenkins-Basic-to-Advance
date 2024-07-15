@@ -3,26 +3,32 @@
 ## Requirements
 
 ### Supported Platforms
+
 Jenkins runs on JVM and supports:
+
 - Linux
 - Windows
 - macOS
 - UNIX/BSD
 
 ### Java Version
+
 Jenkins requires Java 8 or Java 11. Jenkins LTS supports Java 11 starting from Release 2.164.1. Java 9 and 10 are not supported.
 
 ### JVM Recommendation
+
 For production, use JDK over JRE for troubleshooting tools.
 
 ## Disk Space Requirements
 
 ### Considerations
+
 - Jenkins generates large artifacts, logs, and build files.
 - Disk usage grows over time, especially with remote job hosting.
 - Backups require significant space; separate filesystems are recommended for backup directories.
 
 ### Best Practices
+
 - Offload artifacts, logs, and backups to external storage (e.g., Nexus, Artifactory).
 - Use low-latency SSD drives for improved performance.
 - Consider expandable volumes like LVM (Linux) or spanned volumes (Windows).
@@ -32,16 +38,20 @@ For production, use JDK over JRE for troubleshooting tools.
 ## Installing Jenkins
 
 ### Distribution Channels
+
 Jenkins is available via:
+
 - OS native packages (RPM, DEB)
 - WAR file
 - Docker image
 - Cloud templates (AWS, Azure, etc.)
 
 ### Installing from Linux Packages
+
 Use native packages for major distributions:
 
 #### Red Hat Example
+
 ```bash
 # Add Jenkins Yum Repository
 wget -O /etc/yum.repos.d/jenkins.repo "http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo"
@@ -52,7 +62,7 @@ yum install jenkins
 service jenkins start
 ```
 
-# Jenkins Installation Guide
+## Jenkins Installation Guide
 
 ## Installation Methods
 
@@ -66,6 +76,7 @@ Linux packages are based on the standalone `jenkins.war` file:
 - Provides built-in log rotation.
 
 File Locations:
+
 - Settings: `/etc/sysconfig/jenkins`
 - `$JENKINS_HOME` defaults to: `/var/lib/jenkins`
 
@@ -86,7 +97,7 @@ Run Jenkins with embedded Jetty server:
 java ${JAVA_OPTS} -jar jenkins.war ${JENKINS_OPTS}
 ```
 
-# Jenkins Startup Options and Deployment Methods
+## Jenkins Startup Options and Deployment Methods
 
 ## Startup Options (`JENKINS_OPTS`)
 
@@ -137,13 +148,11 @@ For detailed instructions, see the [Setup Wizard](https://www.jenkins.io/doc/boo
 
 The directory structure is depicted in the diagram below:
 
-![CI/CD Lifecycle](../Image/image5.png)
-
+![CI/CD](../../Image/image5.png)
 
 ## Jenkins upgrades
 
 - Upgrade packages for Jenkins are published regularly. Long-term Support (LTS) packages are released every 12 weeks. The Manage Jenkins page tells you when upgrades are available:
-
 
 - Upgrade to the latest LTS release to stay up-to-date. Always check the Release Notes and changelog before you upgrade.
 
