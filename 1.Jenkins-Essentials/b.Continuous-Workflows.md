@@ -43,7 +43,7 @@ The philosophies of modern development emphasize collaboration between different
 
 ### Agile and continuous philosophies: Agile mostly applies to the earliest steps of the process. Continuous applies to all stages through deployment.
 
-![CI/CD Lifecycle](../Image/image3.png)
+![CI/CD Lifecycle](../Image/image2.png)
 
 ## Continuous Philosophy
 
